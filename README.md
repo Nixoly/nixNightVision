@@ -4,7 +4,7 @@
 
 ---
 
-## **Key Features**
+## **Features**
 - **Night Vision Toggle for Players**:  
   Players can activate or deactivate Night Vision for themselves or other players using simple commands.
 
@@ -30,7 +30,7 @@
 
 ## **Requirements**
 - **Java Version**: Java 8 or higher  
-- **Minecraft Server Versions**: Spigot/Paper servers between **1.13 and 1.21**
+- **Minecraft 1.13 - 1.21**
 
 ---
 
@@ -61,29 +61,6 @@
 
 ---
 
-## **Customization via `config.yml`**
-The plugin offers extensive configuration options to tailor its messages and behavior.
-
-### **Example Configuration Options**
-- Custom prefix for plugin messages:
-  ```yaml
-  prefix: '&8[&aNightVision&8]'
-  ```
-- Toggle messages for players and admins:
-  ```yaml
-  messages:
-    notification-enabled: '{PREFIX} &aNight vision is now enabled!'
-    notification-disabled: '{PREFIX} &cNight vision is now disabled!'
-    night-vision-error-no-player: '{PREFIX} &cPlayer "{PLAYER}" was not found or is offline.'
-  ```
-- On-join automatic Night Vision:
-  ```yaml
-  on-join-nightvision: true
-  ```
-
----
-
-This plugin is maintained with ease-of-use in mind, while offering powerful features for players and admins alike.
 ### **Need Help or Found a Bug?**  
 Encountered an issue or need assistance?  
 - Report problems directly on our [GitHub Issue Tracker](https://github.com/Nixoly/nixNightVision/issues).  
