@@ -1,6 +1,6 @@
-# nixNightVision
+# nixNightVision [![](https://img.shields.io/discord/1199449144948555957?label=Discord&logo=Discord&style=plastic)](https://discord.gg/eGMHpDPzPJ)
 
-**nixNightVision** is a flexible and user-friendly plugin designed to enhance the gameplay experience by allowing players to toggle Night Vision effects with ease. It offers customizable messages, PlaceholderAPI integration, and commands with permission control, making it ideal for servers that need versatile Night Vision functionality.
+![Java](https://img.shields.io/badge/Java-8+-green?style=plastic) ![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-blue?style=plastic)
 
 ---
 
