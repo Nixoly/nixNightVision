@@ -1,4 +1,4 @@
-   # nixNightVision
+# nixNightVision
 
 ![Java](https://img.shields.io/badge/Java-8+-green?style=plastic) ![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-blue?style=plastic)
 
@@ -25,12 +25,6 @@
 
 - **Reloadable Configuration**:  
   Easily reload plugin settings without restarting the server using the `/nv reload` command.
-
----
-
-## **Requirements**
-- **Java Version**: Java 8 or higher  
-- **Minecraft 1.13 - 1.21**
 
 ---
 
