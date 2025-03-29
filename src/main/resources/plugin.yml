@@ -1,0 +1,30 @@
+name: nixNightVision
+version: '${version}'
+main: dev.nixoly.nixnightvision.NixNightVision
+api-version: '1.13'
+load: STARTUP
+authors: [Nixoly]
+description: Advanced Night Vision plugin, everything customizable
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  nightvision:
+    description: Toggles night vision for yourself or others.
+    aliases: [nv]
+    permission: nightvision.use
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  nightvision.use:
+    description: Allows toggling night vision for yourself.
+    default: op
+  nightvision.player:
+    description: Allows toggling night vision for other players.
+    default: op
+  nightvision.help:
+    description: Allows access to the help menu.
+    default: op
+  nightvision.reload:
+    description: Allows reloading of the plugin configuration.
+    default: op

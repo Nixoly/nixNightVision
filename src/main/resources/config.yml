@@ -1,0 +1,53 @@
+# This plugin support this hex colors
+# LEGACY Format: &x&0&0&f&f&c&1 or &
+# CONSOLE format: §x§0§0§f§f§c§1 or §
+
+# Placeholders:
+# {ADMIN} - The name of the person toggling night vision
+# {PLAYER} - The recipient of night vision
+# {PREFIX} - Configured plugin prefix
+
+# PlaceHolderAPI Placeholder:
+# %nightvision_status% - Shows player night vision status
+
+prefix: '&8[&aNightVision&8]'
+
+on-join-nightvision: true
+
+formats:
+  status-placeholder-format:
+    enabled: '&aenabled'
+    disabled: '&cdisabled'
+
+messages:
+  # Night vision-related notifications
+  notification-enabled: '{PREFIX} &aNight vision is now enabled!'
+  notification-disabled: '{PREFIX} &cNight vision is now disabled!'
+
+  # Night vision toggle messages
+  night-vision-toggled-player: '{PREFIX} &aYour night vision has been toggled by {ADMIN}!'
+  night-vision-toggled-enabled: '{PREFIX} &aNight vision has been enabled for {PLAYER}.'
+  night-vision-toggled-disabled: '{PREFIX} &eNight vision has been disabled for {PLAYER}.'
+
+  # Error messages
+  night-vision-error-no-player: '{PREFIX} &cPlayer "{PLAYER}" was not found or is offline.'
+  night-vision-error-no-permission: '{PREFIX} &cYou do not have permission to toggle night vision.'
+
+  # Admin notifications
+  admin-notified-player-enabled: '{PREFIX} &e{PLAYER}''s night vision was enabled by {ADMIN}.'
+  admin-notified-player-disabled: '{PREFIX} &e{PLAYER}''s night vision was disabled by {ADMIN}.'
+  admin-toggle-confirmation-enabled: '{PREFIX} &aYou successfully enabled night vision for {PLAYER}.'
+  admin-toggle-confirmation-disabled: '{PREFIX} &eYou successfully disabled night vision for {PLAYER}.'
+
+  # General messages
+  invalid-command: '{PREFIX} &cInvalid command. Use /nv help for a list of commands.'
+  plugin-reloaded: '{PREFIX} &aPlugin reloaded ({ms}ms)'
+  no-permission: '{PREFIX} &cYou dont have permission to do that!'
+
+  # Help message
+  help-message:
+    - '&2&lNightVision Help'
+    - '&8- &f/nv &7- &aToggle Night Vision for yourself.'
+    - '&8- &f/nv <player> &7- &aToggle Night Vision for another player.'
+    - '&8- &f/nv help &7- &aShow this help menu.'
+    - '&8- &f/nv reload &7- &aReload the configuration files.'
