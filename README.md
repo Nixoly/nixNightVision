@@ -1,4 +1,4 @@
-# nixNightVision [![](https://img.shields.io/discord/1199449144948555957?label=Discord&logo=Discord&style=plastic)](https://discord.gg/eGMHpDPzPJ)
+                     # nixNightVision
 
 ![Java](https://img.shields.io/badge/Java-8+-green?style=plastic) ![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-blue?style=plastic)
 
